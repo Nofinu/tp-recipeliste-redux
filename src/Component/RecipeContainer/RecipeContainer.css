@@ -1,0 +1,96 @@
+
+.recipeContainer{
+  width: 80%;
+  margin: 25px auto 20px;
+  background-color: rgb(12, 12, 12);
+  color: rgb(233, 232, 232);
+  padding: 15px;
+  border-radius: 10px;
+}
+.headerRecipeContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerRecipeContainer>h2{
+  margin: 0;
+}
+.headerRecipeContainer>button{
+  background-color: rgb(23, 126, 2);
+  height: 40px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(235, 234, 234);
+}
+.headerRecipeContainer>button:hover{
+  background-color: rgb(17, 97, 1);
+}
+
+.RecipeItem{
+  border: solid rgb(3, 97, 121) 1px;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.RecipeItemHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.RecipeItemHeader>div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.RecipeItemHeader>div>div{
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+.RecipeItemHeader>div>div>p{
+  margin: 7px 0 0 0 ;
+}
+.RecipeItemHeader>div>div:nth-child(even){
+  border: solid rgb(131, 6, 6) 2px ;
+}
+.RecipeItemHeader>div>div:nth-child(odd){
+  border: solid rgb(141, 110, 7) 2px ;
+}
+.RecipeItemHeader>h2{
+  margin: 5px 0 0 0;
+}
+
+.RecipeItemBody{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+.RecipeItemButtonDiv>button{
+  color: rgb(233, 232, 232);
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 65px;
+  margin-right: 5px;
+}
+
+.RecipeItemButtonDiv>button:nth-child(even){
+  background-color: rgb(138, 91, 3);
+}
+.RecipeItemButtonDiv>button:nth-child(even):hover{
+  background-color: rgb(94, 62, 3);
+}
+.RecipeItemButtonDiv>button:nth-child(odd){
+  background-color: rgb(95, 3, 3);
+}
+.RecipeItemButtonDiv>button:nth-child(odd):hover{
+  background-color: rgb(56, 2, 2);
+}

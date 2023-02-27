@@ -1,0 +1,56 @@
+
+
+.formAddEdit{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.formAddEdit>div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center
+}
+.formAddEdit>div>button{
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  border: none;
+}
+
+.formAddEdit>textarea{
+  resize: None;
+  margin: 5px 0 15px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.inputFormAddEdit{
+  margin: 5px 0 15px 0;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+}
+.inputTmps{
+  width: 20%;
+  min-width: 220px;
+}
+
+.selectFormAddEdit{
+  margin: 5px 0 15px 0;
+  border: none;
+  border-radius: 5px; 
+}
+
+.formAddEdit>button{
+  width: 75px;
+  height: 35px;
+  margin: auto;
+  background-color: rgb(8, 158, 58);
+  border: none;
+  border-radius: 5px;
+}
+
+.formAddEdit>button:hover{
+    background-color: rgb(7, 109, 41);
+}
